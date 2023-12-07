@@ -55,7 +55,6 @@ fn get_range_location(seeds: Range<usize>, recipes: &Vec<Vec<(Range<usize>, isiz
             min = range.start;
         }
     }
-    println!("{min}");
     min
 }
 
